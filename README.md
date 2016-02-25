@@ -1,8 +1,6 @@
 # Open-Source iOS Apps
 
-List of open-source iOS apps.
-
-Feel free to contribute: [issues](https://github.com/dkhamsing/open-source-ios-apps/issues), [pull requests](https://github.com/dkhamsing/open-source-ios-apps/pulls), or [Twitter](#contact).
+A collaborative list of open-source iOS apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/issues) [is](https://github.com/dkhamsing/open-source-ios-apps/pulls) [welcome](#contact) :smile:
 
 Jump to
 
@@ -10,12 +8,13 @@ Jump to
 - [Apple Watch](#apple-watch)
 - [Browser](#browser)
 - [Communication](#communication)
+- [Conference](#conference)
 - [Content Blocking](#content-blocking)
 - [Core Data](#core-data)
 - [Games](#games)
 - [Developer](#developer)
 - [Finance](#finance)
-- [Health](#health)mi
+- [Health](#health)
 - [Keyboards](#keyboards)
 - [Location](#location)
 - [Media](#media)
@@ -30,6 +29,7 @@ Jump to
 - [Social](#social)
 - [Tasks](#tasks)
 - [Tools](#tools)
+- [VIPER](#viper)
 - [Weather](#weather)
 - [Web](#web)
 - [Xamarin](#xamarin)
@@ -53,6 +53,7 @@ Projects that are not in English have a flag
 ## Apple TV
 
 - [Artsy Shows](https://github.com/artsy/Emergence): Art shows on your TV 🔶🔥🔥
+- [EX Player][extvplayer]: Watch video from ex.ua on your TV
 - [Provenance][]: Frontend for multiple emulators, currently supporting Sega Genesis, SNES, NES, GB/GBC, & more 🔥🔥🔥🔥
 - [UitzendingGemist](https://github.com/jeffkreeftmeijer/UitzendingGemist): Unofficial Apple TV app for Dutch Public Broadcasting video on demand service 🔶
 - [WWDCTV](https://github.com/azzoor/WWDCTV): Watch the WWDC Videos on your Apple TV 🔥🔥
@@ -66,16 +67,19 @@ Projects that are not in English have a flag
 - Brew: Discover craft beer pubs nearby 🔶
   - https://github.com/contentful-labs/ContentfulWatchKitExample
   - https://itunes.apple.com/app/id986830433
+- Bus Today: Track bus line on your wrist 🇨🇳
+  - https://github.com/JohnWong/bus-today
+  - https://itunes.apple.com/app/jin-ri-gong-jiao-tong-zhi/id975022341
 - [Calculator](https://github.com/noodlewerk/Apple_Watch_Calculator) 🔶 
 - [Calculator](https://github.com/mukeshthawani/Calculator) 🔶
 - [Cherry](https://github.com/kenshin03/Cherry): Mini Pomodoro Timer app 🔶🔥🔥 
 - [Connectivity Demo](https://github.com/swilliams/watchkit-connectivity-demo)
-- [CoolSpot](https://github.com/neonichu/CoolSpot): The missing Spotify ᴡᴀᴛᴄʜ app 🔶
+- [CoolSpot](https://github.com/neonichu/CoolSpot): The missing Spotify app 🔶
 - Cortado: Track your caffeine consumption habits 🔥
   - https://github.com/lazerwalker/cortado
   - https://itunes.apple.com/app/cortado/id969899327
 - [Done][]: Demonstrate data sharing between a WatchKit app and its main app using Realm 🔶
-- Gulps: Track of your daily water consumption 🔶🔥🔥
+- Gulps: Track your daily water consumption 🔶🔥🔥
   - https://github.com/FancyPixel/gulps
   - https://itunes.apple.com/app/gulps/id979057304
 - [heartrate](https://github.com/coolioxlr/watchOS-2-heartrate): Show streaming heartrate from the watch with watchOS 2 🔶🔥🔥
@@ -85,7 +89,7 @@ Projects that are not in English have a flag
 - [KTPomodoro](https://github.com/kenshin03/KTPomodoro): Mini Pomodoro Timer app
 - [Lister](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html): List app example by Apple 🔶 
 - [OnTime](https://github.com/D-32/OnTime): Apple Watch app to access the SBB (Swiss railway) timetable
-- Parties for WWDC: Aggregator of developers WWDC parties 🔥 
+- Parties for WWDC 🔥 
   - https://github.com/sugarso/WWDC
   - https://itunes.apple.com/app/parties-for-wwdc/id879924066
 - PhoneBattery: Your phone's battery, on your wrist
@@ -96,9 +100,9 @@ Projects that are not in English have a flag
 - [Watchman](https://github.com/DanielTomlinson/Watchman): A WatchOS2 Hangman Game 🔶
 - [WatchNotes](https://github.com/azamsharp/WatchNotes): Notes on your wrist 🔶
 - [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler): Code examples for new features of watchOS 2 🔶🔥🔥🔥
-- [WatchPics](https://github.com/D-32/WatchPics): Instagram for the Apple Watch
-- [WatchSnake](https://github.com/davidcairns/-WatchSnake): Game of Snake for Watch 🔶
-- [WatchStocks](https://github.com/G2Jose/WatchStocks): App to track your stocks portfolio. Also includes a watch face complication 🔶
+- [WatchPics](https://github.com/D-32/WatchPics): Instagram app 
+- [WatchSnake](https://github.com/davidcairns/-WatchSnake): Game of Snake 🔶
+- [WatchStocks](https://github.com/G2Jose/WatchStocks): App to track your stocks portfolio, also includes a watch face complication 🔶
 - [Wunderschnell](https://github.com/contentful-labs/Wunderschnell): Order the right product with one tap on your wrist 🔶
 
 ## Browser
@@ -118,16 +122,28 @@ Projects that are not in English have a flag
 - ChatSecure: Encrypted chat app that supports OTR encryption over XMPP 🔥🔥🔥🔥
   - https://github.com/ChatSecure/ChatSecure-iOS
   - https://itunes.apple.com/app/chatsecure-encrypted-messenger/id464200063
+- [Colloquy](https://github.com/colloquy/colloquy): IRC client
 - IRCCloud: An IRC client/service 🔥
   - https://github.com/irccloud/ios
   - https://itunes.apple.com/app/irccloud/id672699103
+- M: Email with device-to-device encryption for messages sent between M users
+  - https://github.com/Mynigma/M
+  - https://itunes.apple.com/app/m-safe-email-made-simple/id818498595
 - [Mumble](https://github.com/mumble-voip/mumble-iphoneos): Gaming-focused social voice chat utility 🔥
+- [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat.iOS): Rocket.Chat (open source Meteor chat platform) app 🔶
 - Signal: Free, world-wide, private messaging and phone calls for iPhone 🔥🔥🔥🔥
   - https://github.com/WhisperSystems/Signal-iOS
   - https://itunes.apple.com/app/id874139669
-- Telegram: Messaging app with a focus on speed and security
-  - https://telegram.org/apps
+- Telegram: Messaging app with a focus on speed and security 🔥🔥🔥
+  - https://github.com/peter-iakovlev/Telegram
   - https://itunes.apple.com/app/telegram-messenger/id686449807
+
+## Conference
+
+- [NortalTechDay][]: Nortal TechDay 2015 app 🔥
+- [ParseDeveloperDay][]: Parse 2013 Developer Conference App
+- [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp): try! Swift Conference App 🔶🔥
+- [Valio](https://github.com/soffes/valio): Valio Con 2014 Schedule 🔶🔥🔥
 
 ## Content Blocking
 
@@ -148,11 +164,16 @@ Projects that are not in English have a flag
 ## Developer
 
 - [Bequest](https://github.com/splinesoft/Bequest): Create and replay HTTP/S requests 🔶
-- [AppSales-Mobile](https://github.com/omz/AppSales-Mobile): App for iTunes Connect Sales 🔥🔥🔥🔥
+- Charter: A Swift mailing list client for iPhone and iPad 🔶🔥
+  - https://github.com/matthewpalmer/Charter
+  - https://itunes.apple.com/app/charter-mailing-list-client/id1082212697
 - Monkey: GitHub third party client that shows the rank of coders and repositories 🔥🔥🔥
   - https://github.com/coderyi/Monkey
   - https://itunes.apple.com/app/monkey-for-github/id1003765407
 - [MrCode](https://github.com/haolloyin/MrCode): GitHub iPhone app that can cache Markdown content 🇨🇳 🔥🔥
+- OctoPodium: List user rankings based on GitHub repositories' number of stars 🔶
+  - https://github.com/nunogoncalves/iOS-OctoPodium
+  - https://itunes.apple.com/app/octopodium/id1077519133
 - [Review Time](https://github.com/nthegedus/ReviewTime): Shows average review times for iOS and the Mac Apps 🔶🔥
 
 ## Games
@@ -185,6 +206,9 @@ Projects that are not in English have a flag
 - MUDRammer: MUD Client for iPhone and iPad
   - https://github.com/splinesoft/MUDRammer
   - https://itunes.apple.com/app/mudrammer-a-modern-mud-client/id597157072
+- Mission999
+  - https://github.com/whunmr/Mission999
+  - https://itunes.apple.com/app/mission-999/id1036686316
 - [Orbit7](https://github.com/Mav3r1ck/Orbit7): iOS Game created in SpriteKit 🔶
 - [Provenance][]: Frontend for multiple emulators, currently supporting Sega Genesis, SNES, NES, GB/GBC, & more 🔥🔥🔥🔥
 - [SceneKitFrogger](https://github.com/devindazzle/SceneKitFrogger) 🔶
@@ -285,11 +309,12 @@ Projects that are not in English have a flag
 
 ## Media
 
-*Image, video, audio*
+*Image, video, audio, reading*
 
 - 360 VR Player: A Open Source, Ad-free, Native and Universal 360° video player for iOS. 🔥🔥🔥
   - https://github.com/hanton/HTY360Player
   - https://itunes.apple.com/hk/app/360-vr-player/id1061464612?mt=8
+- [Analog Synth X](http://matthewfecher.com/app-developement/swift-synth/): Analog Synthesizer Keyboard Music App, created w/ Swift 2 🔶 ([code](https://github.com/audiokit/AudioKit/tree/master/Examples/iOS/AnalogSynthX))
 - Artsy: The Art World in Your Pocket 🔥🔥🔥🔥
   - https://github.com/artsy/eigen
   - https://itunes.apple.com/app/artsy-art-world-in-your-pocket/id703796080
@@ -307,6 +332,7 @@ Projects that are not in English have a flag
 - Eleven: Eleven Player is a simple powerful video player, uses ffmpeg 🔥🔥
   - https://github.com/coderyi/Eleven
   - https://itunes.apple.com/app/elevenplayer/id1033773648
+- [EX Player][extvplayer]: Watch video from ex.ua on iOS device
 - [Filterpedia](https://github.com/FlexMonkey/Filterpedia): Core Image Filter explorer 🔶🔥🔥🔥
 - [Flickr-Search](https://github.com/alikaragoz/Flickr-Search/): Simple app which consumes the Flickr Search API
 - [FreeStreamer](https://github.com/muhku/FreeStreamer): A low-memory footprint streaming audio player 🔥🔥🔥
@@ -317,11 +343,15 @@ Projects that are not in English have a flag
 - Longboxed: Track the releases of your favorite comics.
   - https://github.com/jayhickey/Longboxed-iOS
   - https://itunes.apple.com/app/longboxed-comic-tracker/id965045339 
+- [Megabite](https://github.com/AaronRandall/Megabite): Turn a photo of your food into a face 🔥🔥
 - [movies](https://github.com/KMindeguia/movies): Movie info app 🔥🔥🔥
 - OCiney: Movie info app 🔥
   - https://github.com/florent37/OCiney-iOS
   - https://itunes.apple.com/app/id955480687
 - [OpenPics](https://github.com/pj4533/OpenPics):  View historical images from multiple remote sources
+- Open Source Selfie Stick: Sync two iOS devices and use one as a remote control for the other's camera!
+  - https://github.com/RF-Nelson/open-source-selfie-stick
+  - https://itunes.apple.com/app/id1084487132
 - [PhotoBrowser](https://github.com/MoZhouqi/PhotoBrowser): A simple iOS Instagram photo browser 🔶🔥🔥 
 - Poppins: House all your favorite GIFs and easily share them with your friends and family 🔶
   - https://github.com/thoughtbot/poppins
@@ -336,10 +366,12 @@ Projects that are not in English have a flag
 - [SwiftFlickrApp](https://github.com/synboo/SwiftFlickrApp): Flickr popular photo viewer 🔶🔥🔥
 - [Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro): Professional Radio Station App, created w/ Swift 2.0 🔶🔥🔥🔥🔥
 - [SwiftSpace](https://github.com/FlexMonkey/SwiftSpace): CoreMotion Controlled Drawing in 3D Space 🔶
-- [Swift Synth](http://matthewfecher.com/app-developement/swift-synth/): Analog Synthesizer Keyboard Music App, created w/ Swift 2 🔶 ([code](https://github.com/audiokit/AudioKit/tree/master/Examples/iOS/SwiftSynth))
 - That Movie With: Find common movies among actors
   - https://github.com/jayhickey/thatmoviewith
   - https://itunes.apple.com/app/that-movie-with/id892972135
+- Textbook: textbooks from People's Education Press in China 🔶 🇨🇳
+  - https://github.com/JohnWong/textbook
+  - https://itunes.apple.com/app/ke-ben/id993244460
 - Upupu: Simple camera app that can backup pictures on a WebDAV server or Dropbox
   - https://github.com/xcoo/upupu
   - https://itunes.apple.com/app/upupu/id508401854
@@ -385,6 +417,7 @@ Projects that are not in English have a flag
   - https://github.com/vetri02/HackerNews
   - https://itunes.apple.com/app/hacker-news-y/id1027140113
 - [HackerNews](https://github.com/amitburst/HackerNews) 🔶🔥🔥🔥
+- [HackerNews-React-Native][] 🔥🔥🔥🔥
 - [Hackers](https://github.com/weiran/Hackers) 🔶🔥🔥
 - HN-App 🔶
   - https://github.com/NikantVohra/HackerNewsClient-iOS
@@ -435,9 +468,7 @@ Projects that are not in English have a flag
 - Parse-Challenge-App: iPhone app built using Parse w/ likes, comments, posting images/video 🔥
   - https://github.com/TomekB/Parse-Challenge-App
   - https://itunes.apple.com/app/lets-challenge-me/id944004497
-- ParseDeveloperDay: Developer Conference App
-  - https://github.com/ParsePlatform/ParseDeveloperDay
-  - https://itunes.apple.com/app/parse-developer-day/id691488056
+- [ParseDeveloperDay][]: 2013 Developer Conference App
 - ParseStore: Backend provider for selling physical goods using Parse 🔥
   - https://github.com/ParsePlatform/ParseStore
   - https://itunes.apple.com/app/parse-store/id613679907
@@ -455,6 +486,9 @@ Projects that are not in English have a flag
 - MasterPassword: Stateless password management solution 🔥🔥
   - https://github.com/Lyndir/MasterPassword
   - https://itunes.apple.com/app/id510296984
+- MiniKeePass: Secure Password Manager 🔥🔥
+  - https://github.com/MiniKeePass/MiniKeePass
+  - https://itunes.apple.com/app/id451661808
 - Onions: Cloud encrypted text storage app
   - https://github.com/onionsapp/Onions-iOS
   - https://itunes.apple.com/app/onions/id687296481
@@ -473,7 +507,11 @@ Projects that are not in English have a flag
 ## [React Native](http://facebook.github.io/react-native/)
 
 - [allyoop](https://github.com/wwayne/react-native-nba-app): NBA game scores app 🔥🔥
-- [App examples by Facebook](https://github.com/facebook/react-native/tree/master/Examples): Sample apps including 2048, movies, tic tac toe and more
+- Apps by Facebook
+  - [2048](https://github.com/facebook/react-native/tree/master/Examples/2048)
+  - [Movies](https://github.com/facebook/react-native/tree/master/Examples/Movies)
+  - [TicTacToe](https://github.com/facebook/react-native/tree/master/Examples/TicTacToe)
+  - [UIExplorer](https://github.com/facebook/react-native/tree/master/Examples/UIExplorer)
 - [Around Me](https://github.com/bgryszko/react-native-example): Display Instagram photos around your location
 - [Calculator](https://github.com/benoitvallon/react-native-nw-react-calculator) 🔥🔥🔥🔥
 - [Currency Converter](https://github.com/ashwinpreet/ReactNativeExamples/tree/master/ios/CurrencyConverter)
@@ -482,19 +520,21 @@ Projects that are not in English have a flag
 - [Facebook Login](https://github.com/brentvatne/react-native-login) 🔥🔥
 - [Finance](https://github.com/7kfpun/FinanceReactNative): iOS's Stocks app written in React Native 🔥
 - [Foreign Exchange](https://github.com/peralmq/ForeignExchangeApp)
-- [Hacker News](https://github.com/iSimar/HackerNews-React-Native) 🔥🔥🔥🔥
+- [HackerNews-React-Native][] 🔥🔥🔥🔥
 - [Iceland Earthquakes](https://github.com/paranoida/IcelandEarthquakes)
 - [iTunes Catalog Search](https://github.com/alexissan/ReactNativeWorkshop)
 - [london-react](https://github.com/JoeStanton/london-react)
 - [newswatch](https://github.com/bradoyler/newswatch-react-native): News app using YouTube playlists
-- [NortalTechDay](https://github.com/mikkoj/NortalTechDay): Conference app 🔥
-- [Product Kitty](https://github.com/rkho/product-kitty)
+- [NortalTechDay][]: Conference app 🔥
+- [PocketNode](https://github.com/mzabriskie/PocketNode): Lightweight Node REPL
+- [Product Kitty](https://github.com/rkho/product-kitty): Product Hunt app
 - [Property Finder](https://github.com/ColinEberhardt/ReactNative-PropertyFinder) 🔥
 - [RSS Reader](https://github.com/christopherdro/react-native-rss-reader)
 - [Songkick](https://github.com/ArnaudRinquin/sk-react-native)
 - [Spacepics](https://github.com/campezzi/react-native-spacepics): A small app displaying NASA's Picture of the Day
 - [Sudoku](https://github.com/christopherdro/react-native-sudoku)
 - [To Do List](https://github.com/joemaddalone/react-native-todo)
+- [Twitch](https://github.com/IFours/react-native-twitch)
 - [WeatherApp][]
 
 ## [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
@@ -547,6 +587,12 @@ Projects that are not in English have a flag
 
 ## Social
 
+- Aozora: Discover and track anime 🔶
+  - https://github.com/pjchavarria/Aozora
+  - https://itunes.apple.com/us/app/aozora-anime-community-track/id1017433045
+- Yep: Discover talent and build something together 🔶🔥🔥🔥🔥🔥
+  - https://github.com/CatchChat/Yep
+  - https://itunes.apple.com/app/yep-meet-genius/id983891256
 - Peggsite: App for sharing a social board
   - https://github.com/jenduf/GenericSocialApp
   - https://itunes.apple.com/app/peggsite/id938445951 
@@ -561,7 +607,9 @@ Projects that are not in English have a flag
 - Todo.txt: If you have a file called todo.txt on your computer right now, you're in the right place 🔥🔥
   - https://github.com/ginatrapani/todo.txt-ios
   - https://itunes.apple.com/app/todo.txt-touch/id491342186
-- [Tinylog](https://github.com/binarylevel/Tinylog-iOS): A minimal TODO App for iOS (iPhone/iPad) 🔶
+- Tinylog: A minimal iPhone/iPad TODO app 🔶
+  - https://github.com/binarylevel/Tinylog-iOS
+  - https://itunes.apple.com/app/tinylog/id799267191
 
 ## Tools
 
@@ -586,6 +634,9 @@ Projects that are not in English have a flag
 - GreatReader: "Great" PDF reader designed for both iPhone and iPad 🔥🔥
   - https://github.com/semweb/GreatReader
   - https://itunes.apple.com/app/greatreader/id903651112
+- my41: HP-41C/CV/CX Microcode emulator
+  - https://github.com/mperovic/my41
+  - https://itunes.apple.com/app/my41cx/id979041950
 - [Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter): 3D Touch Application for Weighing Plums (and other small fruit!) 🔶🔥🔥
 - Round & Split: Tip Calculator 🔶
   - https://github.com/lukhnos/roundandsplit
@@ -603,6 +654,12 @@ Projects that are not in English have a flag
  - https://github.com/mpak/Workdays
  - https://itunes.apple.com/app/workdays-calendar/id889712978
 - [ZeroStore](https://github.com/kylebshr/zerostore-ios): password storage without the storage
+
+## [VIPER](https://mutualmobile.github.io/blog/2013/12/04/viper-introduction/)
+
+- [Contacts](https://github.com/sebastianwr/VIPER-Persons)
+- [Counter](https://github.com/mutualmobile/Counter) 🔥
+- [To do](https://www.objc.io/issues/13-architecture/viper/): objcio [example](https://github.com/objcio/issue-13-viper)
 
 ## Weather
 
@@ -657,7 +714,6 @@ Projects that are not in English have a flag
 - [Malendar](https://github.com/croossin/Malendar): A redesigned calendar app 🔶
 - [Mirror++](https://github.com/nathunsmitty/MirrorPlusPlus): Minimalist mirror 🔶
 - [OpenCB](https://github.com/student-t/OpenCB): Interactive chess book reader
-- [Valio](https://github.com/soffes/valio): Valio Con 2014 Schedule 🔶🔥🔥
 - [TheReservist](https://github.com/kimar/TheReservist): Check availability of iPhones 🔶
 - Vinylogue: A simple Last.fm client
   - https://github.com/twocentstudios/vinylogue
@@ -677,12 +733,16 @@ This list was inspired by [awesome-ios](https://github.com/vsouza/awesome-ios) a
 - [twitter.com/dkhamsing](https://twitter.com/dkhamsing)
 
 [Done]: https://github.com/FancyPixel/done-swift
+[HackerNews-React-Native]: https://github.com/iSimar/HackerNews-React-Native
 [HN Reader]: https://github.com/Dimillian/SwiftHN
 [HN Reader on the App Store]: https://itunes.apple.com/app/hn-reader-hacker-news-reader/id919243741
 [iBeaconTasks]: https://github.com/TomekB/iBeaconTasks
+[extvplayer]: https://github.com/IGRSoft/exTVPlayer
 [Firefox]: https://github.com/mozilla/firefox-ios
 [Firefox on the App Store]: https://itunes.apple.com/app/firefox-web-browser/id989804926
 [Jim]: https://github.com/kylejm/Jim
+[NortalTechDay]: https://github.com/mikkoj/NortalTechDay
+[ParseDeveloperDay]: https://github.com/ParsePlatform/ParseDeveloperDay
 [Provenance]: https://github.com/jasarien/Provenance
 [RealmToDo]: https://github.com/pietbrauer/RealmToDo
 [Tropos]: https://github.com/thoughtbot/Tropos
